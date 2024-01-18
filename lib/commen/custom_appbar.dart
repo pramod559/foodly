@@ -26,7 +26,7 @@ class CustomAppbar extends StatelessWidget {
                 CircleAvatar(
                   radius: 22.r,
                   backgroundColor: kSecondary,
-                  backgroundImage: NetworkImage(
+                  backgroundImage: const NetworkImage(
                       'https://d326fntlu7tb1e.cloudfront.net/uploads/b5065bb8-4c6b-4eac-a0ce-86ab0f597b1e-vinci_04.jpg'),
                 ),
                 Padding(
@@ -56,7 +56,7 @@ class CustomAppbar extends StatelessWidget {
             ),
             Text(
               getTimeOfDay(),
-              style: TextStyle(fontSize: 35),
+              style: const TextStyle(fontSize: 35),
             )
           ],
         ),
