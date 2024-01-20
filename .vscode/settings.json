@@ -7,7 +7,6 @@
     ".idea": true,
     ".metadata": true,
     "analysis_options.yaml": true,
-    "android": true,
     "build": true,
     "foodly.iml": true,
     "ios": true,
@@ -17,5 +16,6 @@
     "README.md": true,
     "web": true,
     "windows": true
-  }
+  },
+  "java.configuration.updateBuildConfiguration": "automatic"
 }

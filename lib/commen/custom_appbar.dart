@@ -35,14 +35,14 @@ class CustomAppbar extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ReusableText(
+                      const ReusableText(
                           text: "deliver to",
                           style: AppStyle(13,
                               color: Colors.deepOrange,
                               fontWeight: FontWeight.w600)),
                       SizedBox(
                         width: width * 0.65,
-                        child: Text(
+                        child: const Text(
                           "316 b M-block sanjay nager ghaziabad",
                           overflow: TextOverflow.ellipsis,
                           style: AppStyle(11,

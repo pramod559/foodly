@@ -4,7 +4,7 @@ List<Map<String, dynamic>> categories = [
     "title": "Fried Rice",
     "value": "fried_rice",
     "imageUrl":
-        "https://d326fntlu7tble.cloudfront.net/uploads/4a4cd06e-94de-4478-8588-66",
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
     "createdAt": "2023-10-24T16:12:23.571Z",
     "updatedAt": "2023-10-24T16:12:23.571Z",
     "v": 0
@@ -14,10 +14,49 @@ List<Map<String, dynamic>> categories = [
     "title": "Curry",
     "value": "curry",
     "imageUrl":
-        "https://d326fntlu7tble.cloudfront.net/uploads/ee2d952c-1d7d-48f7-81b3-cb",
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
     "v": 0
   },
-  {"_id": "6531206cbbe4998e90af3feb", "title": "Pizza", "v": 0},
+  {
+    "_id": "6531206cbbe4998e90af3feb",
+    "title": "Pizza",
+    "value": "pizza",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
+    "v": 0,
+  },
+  {
+    "_id": "653120babbe4998e90af3ff1",
+    "title": "Beverages",
+    "value": "beverages",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
+    "v": 0
+  },
+  {
+    "_id": "65312084bbe4998e90af3fed",
+    "title": "Burgers",
+    "value": "burgers",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
+    "v": 0
+  },
+  {
+    "_id": "65310efb81e4d98d60b093c3",
+    "title": "Chicken",
+    "value": "chicken",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
+    "v": 0
+  },
+  {
+    "_id": "653120e1bbe4998e90af3ff3",
+    "title": "More",
+    "value": "more",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
+    "v": 0
+  }
 ];
 
 const List<Map<String, dynamic>> restaurants = [
