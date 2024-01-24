@@ -10,7 +10,7 @@ class AllCategories extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             'Categories',
             style: AppStyle(
               12,
@@ -40,7 +40,7 @@ class AllCategories extends StatelessWidget {
                   ),
                   title: ReusableText(
                     text: category['title'],
-                    style: AppStyle(
+                    style: const AppStyle(
                       12,
                       color: kGray,
                       fontWeight: FontWeight.normal,

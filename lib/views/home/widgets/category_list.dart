@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodly/views/categories/all_categories.dart';
 import 'package:foodly/views/view.dart';
 
 import 'category_widget.dart';

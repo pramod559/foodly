@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
             )),
         body: SafeArea(
             child: CustomController(
-          containerContent: Column(
+          containerContent: const Column(
             children: [
               CategoryList(),
             ],
