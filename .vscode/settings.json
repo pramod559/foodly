@@ -18,7 +18,6 @@
     "windows": true
   },
   "java.configuration.updateBuildConfiguration": "automatic",
-  "dotnetAcquisitionExtension.existingDotnetPath": [
-    
-  ]
+  "dotnetAcquisitionExtension.existingDotnetPath": [],
+  "gradle.javaDebug.cleanOutput": false
 }
