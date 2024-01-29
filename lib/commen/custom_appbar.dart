@@ -37,7 +37,7 @@ class CustomAppbar extends StatelessWidget {
                     children: [
                       const ReusableText(
                           text: "deliver to",
-                          style: AppStyle(13,
+                          style: AppStyle(13,fontSize: 13,
                               color: Colors.deepOrange,
                               fontWeight: FontWeight.w600)),
                       SizedBox(
