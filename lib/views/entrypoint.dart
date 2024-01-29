@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:foodly/constants/constants.dart';
 import 'package:foodly/controller/tab_index_controller.dart';
+import 'package:foodly/views/cart/cart_page.dart';
 import 'package:foodly/views/home/home_page.dart';
 import 'package:foodly/views/profile/profile_page.dart';
 import 'package:foodly/views/search/search_page.dart';
@@ -13,11 +14,11 @@ import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 class mainScreen extends StatelessWidget {
   mainScreen({super.key});
-  List<Widget> pageList = const[
-    HomePage(),
-    SearchPage(),
-    HomePage(),
-    ProfilePage(),
+  List<Widget> pageList = [
+    const HomePage(),
+    const SearchPage(),
+    const CartPage(),
+    const ProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {

@@ -17,5 +17,8 @@
     "web": true,
     "windows": true
   },
-  "java.configuration.updateBuildConfiguration": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "dotnetAcquisitionExtension.existingDotnetPath": [
+    
+  ]
 }

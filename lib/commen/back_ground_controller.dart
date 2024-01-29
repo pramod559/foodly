@@ -22,7 +22,7 @@ class BackGroundController extends StatelessWidget {
           ),
           image: const DecorationImage(
               image: AssetImage(
-                "assets/images/restaurant_bk.png",
+                "restaurant_bk.png",
               ),
               fit: BoxFit.cover,
               opacity: .7),
