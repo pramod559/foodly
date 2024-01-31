@@ -66,6 +66,108 @@ const List<Map<String, dynamic>> restaurants = [
     "time": "6:00am - 9:00pm",
     "imageUrl":
         "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+
+    "owner": "fdfsdfsdfs",
+    "code": "41007428",
+    "logoUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "rating": 5,
+    "ratingCount": "6765",
+    "coords": {
+      "id": "2023",
+      "latitude": 37.78792117665919,
+      "longitude": -122.41325651079953,
+    },
+    "address": "698 Post St, San Francisco, CA 94109, United States",
+    "latitudeDelta": 0.0122,
+  },
+  {
+    "_id": "6530ebbcc9e72013e5b65933",
+    "title": "Lapisara Eatery",
+    "time": "6:00am - 9:00pm",
+    "imageUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "owner": "fdfsdfsdfs",
+    "code": "41007428",
+    "logoUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "rating": 5,
+    "ratingCount": "6765",
+    "coords": {
+      "id": "2023",
+      "latitude": 37.78792117665919,
+      "longitude": -122.41325651079953,
+    },
+    "address": "698 Post St, San Francisco, CA 94109, United States",
+    "latitudeDelta": 0.0122,
+  },
+  {
+    "_id": "6530ebbcc9e72013e5b65933",
+    "title": "Lapisara Eatery",
+    "time": "6:00am - 9:00pm",
+    "imageUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "owner": "fdfsdfsdfs",
+    "code": "41007428",
+    "logoUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "rating": 5,
+    "ratingCount": "6765",
+    "coords": {
+      "id": "2023",
+      "latitude": 37.78792117665919,
+      "longitude": -122.41325651079953,
+    },
+    "address": "698 Post St, San Francisco, CA 94109, United States",
+    "latitudeDelta": 0.0122,
+  },
+  {
+    "_id": "6530ebbcc9e72013e5b65933",
+    "title": "Lapisara Eatery",
+    "time": "6:00am - 9:00pm",
+    "imageUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "owner": "fdfsdfsdfs",
+    "code": "41007428",
+    "logoUrl":
+        "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
+    "rating": 5,
+    "ratingCount": "6765",
+    "coords": {
+      "id": "2023",
+      "latitude": 37.78792117665919,
+      "longitude": -122.41325651079953,
+    },
+    "address": "698 Post St, San Francisco, CA 94109, United States",
+    "latitudeDelta": 0.0122,
+  },
+  {
+    "_id": "6530ebbcc9e72013e5b65933",
+    "title": "Lapisara Eatery",
+    "time": "6:00am - 9:00pm",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2a",
+    "owner": "fdfsdfsdfs",
+    "code": "41007428",
+    "logoUrl":
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2a",
+    "rating": 5,
+    "ratingCount": "6765",
+    "coords": {
+      "id": "2023",
+      "latitude": 37.78792117665919,
+      "longitude": -122.41325651079953,
+    },
+    "address": "698 Post St, San Francisco, CA 94109, United States",
+    "latitudeDelta": 0.0122,
+  },
+  {
+    "_id": "6530ebbcc9e72013e5b65933",
+    "title": "Lapisara Eatery",
+    "time": "6:00am - 9:00pm",
+    "imageUrl":
+        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2a",
+
     "owner": "fdfsdfsdfs",
     "code": "41007428",
     "logoUrl":
@@ -331,6 +433,57 @@ const List<Map<String, dynamic>> cart = [
         "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
         // "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a",
         // "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a"
+      ],
+      "additives": ["Extra Cheese", "Mushrooms"],
+      "instructions": ""
+    }
+  },
+  {
+    "_id": "653b6588541d2aa2c1e89cd1",
+    "userId": "6537a4448cd1bd140ebddcee",
+    "productId": {
+      "_id": "65316771f94c6496dc84f3bd",
+      "title": "Margherita Pizza",
+      "restaurant": "6530ebbcc9e72013e5b65933",
+      "rating": 4.5,
+      "ratingCount": "150",
+      "imageUrl": [
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a",
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a"
+      ],
+      "additives": ["Extra Cheese", "Mushrooms"],
+      "instructions": ""
+    }
+  },
+  {
+    "_id": "653b6588541d2aa2c1e89cd1",
+    "userId": "6537a4448cd1bd140ebddcee",
+    "productId": {
+      "_id": "65316771f94c6496dc84f3bd",
+      "title": "Margherita Pizza",
+      "restaurant": "6530ebbcc9e72013e5b65933",
+      "rating": 4.5,
+      "ratingCount": "150",
+      "imageUrl": [
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a",
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a"
+      ],
+      "additives": ["Extra Cheese", "Mushrooms"],
+      "instructions": ""
+    }
+  },
+  {
+    "_id": "653b6588541d2aa2c1e89cd1",
+    "userId": "6537a4448cd1bd140ebddcee",
+    "productId": {
+      "_id": "65316771f94c6496dc84f3bd",
+      "title": "Margherita Pizza",
+      "restaurant": "6530ebbcc9e72013e5b65933",
+      "rating": 4.5,
+      "ratingCount": "150",
+      "imageUrl": [
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a",
+        "https://d326fntlu7tble.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a"
       ],
       "additives": ["Extra Cheese", "Mushrooms"],
       "instructions": ""
