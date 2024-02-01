@@ -66,7 +66,6 @@ const List<Map<String, dynamic>> restaurants = [
     "time": "6:00am - 9:00pm",
     "imageUrl":
         "https://images.hdqwalls.com/download/hot-spicy-burger-ys-1920x1080.jpg",
-
     "owner": "fdfsdfsdfs",
     "code": "41007428",
     "logoUrl":
@@ -77,6 +76,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -97,6 +101,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -117,6 +126,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -137,6 +151,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -157,6 +176,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -167,7 +191,6 @@ const List<Map<String, dynamic>> restaurants = [
     "time": "6:00am - 9:00pm",
     "imageUrl":
         "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2a",
-
     "owner": "fdfsdfsdfs",
     "code": "41007428",
     "logoUrl":
@@ -178,6 +201,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -198,6 +226,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -218,6 +251,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -238,6 +276,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -258,6 +301,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,
@@ -278,6 +326,11 @@ const List<Map<String, dynamic>> restaurants = [
       "id": "2023",
       "latitude": 37.78792117665919,
       "longitude": -122.41325651079953,
+      "address":
+          "gosain tola patna,near pathak gali ,near chansi dawa khana ,nr depak tent house. ,patliputra patna 13 ",
+      "title": "Lapisara Eatery",
+      "latitudeDelta": "0.0122",
+      "longitudeDelta": "0.0122",
     },
     "address": "698 Post St, San Francisco, CA 94109, United States",
     "latitudeDelta": 0.0122,

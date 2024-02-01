@@ -4,7 +4,7 @@
 
 // import 'package:foodly/views/view.dart';
 
-// class RestaurantTile extends StatelessWidget {
+// class foodTile extends StatelessWidget {
 //   final dynamic restaurant;
 
 //   RestaurantTile({Key? key, this.restaurant}) : super(key: key);
@@ -44,7 +44,8 @@
 //               children: [
 //                 ReusableText(
 //                   text: restaurant['title'],
-//                   style: const AppStyle(,
+//                   style: const AppStyle(
+//                     11,
 //                     fontSize: 11,
 //                     color: Colors.black,
 //                     fontWeight: FontWeight.w400,
@@ -73,13 +74,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 import 'package:foodly/views/view.dart';
 
-class RestaurantTile extends StatelessWidget {
-  final dynamic restaurant;
+class foodTile extends StatelessWidget {
+  final dynamic food;
 
-  const RestaurantTile({super.key, required this.restaurant});
+  foodTile({super.key, required this.food});
 
   @override
   Widget build(BuildContext context) {
@@ -107,7 +109,7 @@ class RestaurantTile extends StatelessWidget {
                           SizedBox(
                             width: 70.w,
                             height: 70.h,
-                            child: Image.network(restaurant["imageUrl"],
+                            child: Image.network(food["imageUrl"],
                                 fit: BoxFit.cover),
                           ),
                           Positioned(
@@ -141,29 +143,44 @@ class RestaurantTile extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             ReusableText(
-                                text: restaurant['title'],
+                                text: food['title'],
                                 style: const AppStyle(
                                     fontSize: 11,
                                     color: kDark,
                                     fontWeight: FontWeight.w400)),
                             ReusableText(
-                                text: restaurant[
-                                    'Delivery time: ${restaurant['time']}'],
+                                text: food['Delivery time: ${food['time']}'],
                                 style: const AppStyle(
                                     fontSize: 11,
                                     color: kGray,
                                     fontWeight: FontWeight.w400)),
                             SizedBox(
-                              width: width * 0.7,
-                              child: Text(
-                                restaurant['coords']['address'],
-                                overflow: TextOverflow.ellipsis,
-                                style: const AppStyle(
-                                    fontSize: 9,
-                                    color: kGray,
-                                    fontWeight: FontWeight.w400),
-                              ),
-                            )
+                                width: width * 0.7,
+                                child: ListView.builder(
+                                  scrollDirection: Axis.horizontal,
+                                  itemCount: food['additives'].length,
+                                  itemBuilder: (context, i) {
+                                    var additive = food['additives'][i];
+                                    return Container(
+                                      margin: EdgeInsets.only(right: 5.w),
+                                      decoration: BoxDecoration(
+                                          color: kSecondaryLight,
+                                          borderRadius: BorderRadius.all(
+                                              Radius.circular(9.r))),
+                                      child: Center(
+                                        child: Padding(
+                                            padding: EdgeInsets.all(2.h),
+                                            child: ReusableText(
+                                              text: additive['title'],
+                                              style: AppStyle(
+                                                  fontSize: 8,
+                                                  color: kGray,
+                                                  fontWeight: FontWeight.w400),
+                                            )),
+                                      ),
+                                    );
+                                  },
+                                ))
                           ])
                       //   ],
                       // ),
@@ -210,29 +227,39 @@ class RestaurantTile extends StatelessWidget {
                     ]),
               )),
           Positioned(
-              right: 5.w,
-              top: 6.h,
-              child: Container(
-                width: 60.w,
-                height: 19.h,
-                decoration: BoxDecoration(
-                    color: restaurant['isAvailable'] == true ||
-                            restaurant['isAvailable'] == null
-                        ? kPrimary
-                        : kGrayLight,
-                    borderRadius: BorderRadius.circular(10.r)),
-                child: Center(
-                  child: ReusableText(
-                      text: restaurant['isAvailable'] == true ||
-                              restaurant['isAvailable'] == null
-                          ? "Open"
-                          : "Closed",
-                      style: AppStyle(
-                          fontSize: 12,
-                          color: kLightWhite,
-                          fontWeight: FontWeight.w600)),
-                ),
-              ))
+            right: 5.w,
+            top: 6.h,
+            child: Container(
+              width: 60.w,
+              height: 19.h,
+              decoration: BoxDecoration(
+                  color: kPrimary, borderRadius: BorderRadius.circular(10.r)),
+              child: Center(
+                child: ReusableText(
+                    text: food['price'].toStringAsFixed(2),
+                    style: AppStyle(
+                        fontSize: 12,
+                        color: kLightWhite,
+                        fontWeight: FontWeight.bold)),
+              ),
+            ),
+          ),
+          Positioned(
+            right: 75.w,
+            top: 6.h,
+            child: Container(
+              width: 19.w,
+              height: 19.h,
+              decoration: BoxDecoration(
+                  color: kSecondary, borderRadius: BorderRadius.circular(10.r)),
+              child: Center(
+                  child: Icon(
+                MaterialCommunityIcons.cart_plus,
+                size: 15.h,
+                color: kLightWhite,
+              )),
+            ),
+          )
         ],
       ),
     );

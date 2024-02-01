@@ -16,7 +16,7 @@ class AllCategories extends StatelessWidget {
           title: const Text(
             'Categories',
             style: AppStyle(
-              12,
+
               color: kGray,
               fontWeight: FontWeight.w600,
             ),

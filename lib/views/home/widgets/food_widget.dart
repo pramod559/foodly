@@ -76,14 +76,14 @@ class FoodWidget extends StatelessWidget {
                         children: [
                           ReusableText(
                             text: title,
-                            style: const AppStyle(12,
+                            style: const AppStyle(
                                 fontSize: 12,
                                 color: kDark,
                                 fontWeight: FontWeight.w500),
                           ),
                           ReusableText(
                             text: "\$ $price",
-                            style: const AppStyle(12,
+                            style: const AppStyle(
                                 fontSize: 12,
                                 color: kPrimary,
                                 fontWeight: FontWeight.w500),
@@ -95,14 +95,14 @@ class FoodWidget extends StatelessWidget {
                           children: [
                             const ReusableText(
                               text: 'Delivery time',
-                              style: AppStyle(9,
+                              style: AppStyle(
                                   fontSize: 9,
                                   color: kGray,
                                   fontWeight: FontWeight.w500),
                             ),
                             ReusableText(
                               text: time,
-                              style: const AppStyle(9,
+                              style: const AppStyle(
                                   fontSize: 9,
                                   color: kDark,
                                   fontWeight: FontWeight.w500),

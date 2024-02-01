@@ -24,7 +24,7 @@ class Heading extends StatelessWidget {
             padding: EdgeInsets.only(top: 10.h),
             child: ReusableText(
                 text: text,
-                style: AppStyle(16, color: kDark, fontWeight: FontWeight.bold)),
+                style: const AppStyle( color: kDark, fontWeight: FontWeight.bold)),
           ),
           GestureDetector(
             onTap: onTap,

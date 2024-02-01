@@ -27,7 +27,7 @@ class CategoryTile extends StatelessWidget {
       title: ReusableText(
         text: category['title'],
         style: const AppStyle(
-          12,
+          
           color: kGray,
           fontWeight: FontWeight.normal,
         ),

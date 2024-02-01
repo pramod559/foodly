@@ -37,7 +37,7 @@ class CustomAppbar extends StatelessWidget {
                     children: [
                       const ReusableText(
                           text: "deliver to",
-                          style: AppStyle(13,fontSize: 13,
+                          style: AppStyle(fontSize: 13,
                               color: Colors.deepOrange,
                               fontWeight: FontWeight.w600)),
                       SizedBox(
@@ -45,7 +45,7 @@ class CustomAppbar extends StatelessWidget {
                         child: const Text(
                           "316 b M-block sanjay nager ghaziabad",
                           overflow: TextOverflow.ellipsis,
-                          style: AppStyle(11,
+                          style: AppStyle(
                               color: kGrayLight, fontWeight: FontWeight.normal),
                         ),
                       )

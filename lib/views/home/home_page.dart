@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:foodly/commen/custom_appbar.dart';
 import 'package:foodly/commen/heading.dart';
 import 'package:foodly/views/home/All_Nearby_Restaurants.dart';
-import 'package:foodly/views/home/all_fastest_foods.dart';
+import 'package:foodly/views/home/all_fastest_foods_page.dart';
 import 'package:foodly/views/home/recommendations.dart';
 import 'package:foodly/views/home/widgets/category_list.dart';
 import 'package:foodly/views/home/widgets/food_list.dart';

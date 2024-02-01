@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:foodly/views/home/widgets/food_list.dart';
 import 'package:foodly/views/home/widgets/food_tile.dart';
+import 'package:foodly/views/home/widgets/restaurant_tile.dart';
 import 'package:foodly/views/view.dart';
 
-class Recommendations extends StatelessWidget {
-  const Recommendations({super.key});
+class AllFastestFoods extends StatelessWidget {
+  const AllFastestFoods({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class Recommendations extends StatelessWidget {
           elevation: 0,
           backgroundColor: kSecondary,
           title: const Text(
-            "Recommendations",
+            "Fastest Foods",
             style: AppStyle(
                 fontSize: 13, color: kLightWhite, fontWeight: FontWeight.w600),
           ),
@@ -26,7 +28,9 @@ class Recommendations extends StatelessWidget {
             child: ListView(
               children: List.generate(foods.length, (i) {
                 var food = foods[i];
-                return foodTile(food: food);
+                return foodTile(
+                  food: food,
+                );
               }),
             ),
           ),
